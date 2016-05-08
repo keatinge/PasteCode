@@ -80,7 +80,7 @@
                     <input type="hidden" id="pasteContents" name="pasteContents">
                     <br>
 
-                    <button style="width:20%" id="goBack" class="btn btn-danger"><-- Go Back</button>
+                    <a style="width:20%" id="goBack" class="btn btn-danger"><-- Go Back</a>
                     <input type="submit" style="width:20%" id="finalSubmit" value="Submit" class="btn btn-success">
                 </form>
 
@@ -117,6 +117,11 @@
 
     });
 
+
+    $("#config").on("click", "#goBack", function () {
+        $("#pasteInput").slideDown(400);
+        $("#config").addClass('invis');
+    });
 
 
 </script>
