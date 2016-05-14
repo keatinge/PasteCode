@@ -1,5 +1,5 @@
 # PasteCode
-Open source pastebin alternative with code-highlighting <br>
+Pastebin-like thing <br>
 Backend written in PHP and frontend uses bootstrap and Jquery
 
 #Submit & View Paste
